@@ -1,2 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui";
+body {
+  color: white;
+  background: linear-gradient(135deg, #393232, #3533cd);
+}
