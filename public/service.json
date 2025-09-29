@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Web Application Development",
+    "icon": "🌐",
+    "description": "Secure, dynamic, and responsive web applications tailored for your business needs. Our web apps are designed to provide seamless user experiences, optimized performance, and easy scalability to handle growing traffic and complex business workflows."
+  },
+  {
+    "title": "Desktop Application Development",
+    "icon": "🖥",
+    "description": "Powerful and reliable desktop solutions designed for enterprises and individuals. We build desktop software that ensures high performance, offline accessibility, and robust security for mission-critical business operations."
+  },
+  {
+    "title": "Mobile App Development",
+    "icon": "📱",
+    "description": "Android & iOS applications with modern UI/UX for seamless user experiences. Our mobile apps are intuitive, fast, and optimized for various devices, helping businesses engage users effectively and enhance customer satisfaction."
+  },
+  {
+    "title": "UI/UX Design",
+    "icon": "🎨",
+    "description": "Engaging and user-friendly design that makes your product stand out. We focus on creating intuitive interfaces and visual experiences that boost usability, increase user retention, and align perfectly with your brand identity."
+  },
+  {
+    "title": "Cloud Solutions",
+    "icon": "☁",
+    "description": "Scalable cloud-based systems with seamless integration and deployment. Our cloud solutions ensure data security, reliable performance, and easy integration with other platforms, enabling businesses to operate efficiently from anywhere."
+  },
+  {
+    "title": "Custom Software Development",
+    "icon": "🔒",
+    "description": "Tailor-made software solutions that align perfectly with your business goals. We analyze your unique requirements and build solutions that automate workflows, reduce costs, and enhance productivity."
+  },
+  {
+    "title": "Maintenance & Support",
+    "icon": "🤝",
+    "description": "Continuous improvement, bug fixing, and reliable technical support for your software. Our team provides proactive monitoring, updates, and expert support to ensure your software always performs at its best and adapts to evolving business needs."
+  }
+]

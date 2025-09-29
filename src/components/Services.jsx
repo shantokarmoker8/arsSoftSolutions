@@ -1,12 +1,16 @@
-import { Globe } from "lucide-react";
-import React from "react";
-
+import { IoGlobeSharp } from "react-icons/io5";
+import { FaDesktop } from "react-icons/fa";
+import { FaMobileScreenButton } from "react-icons/fa6";
+import { MdDesignServices } from "react-icons/md";
+import { FaCloud } from "react-icons/fa";
+import { GrVmMaintenance } from "react-icons/gr";
 export default function Services() {
   return (
     <div>
       <h2 className="text-center font-bold text-xl md:text-3xl lg:text-4xl">
         Our
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
+          {" "}
           Services
         </span>
       </h2>
@@ -17,20 +21,86 @@ export default function Services() {
         focus on quality, reliability, and innovation in every project.
       </p>
       {/* card.... */}
-      {/* <div>
-        <div className="flex">
-          <Globe />
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {/* web application */}
+        <div className="text-center bg-sky-500/10 hover:bg-sky-500/20 p-4 rounded-lg">
+          <div className="flex justify-center">
+            <IoGlobeSharp className="text-5xl" />
+          </div>
           <div>
-            <h2>Web Application Development</h2>
-            <p>
+            <h2 className="text-2xl font-bold p-4">Web Application</h2>
+            <p className="text-xl">
               Secure, dynamic, and responsive web applications tailored for your
-              business needs. Our web apps are designed to provide seamless user
-              experiences, optimized performance, and easy scalability to handle
-              growing traffic and complex business workflows.
+              business needs.
             </p>
           </div>
         </div>
-      </div> */}
+        {/* desktop application */}
+        <div className="text-center bg-sky-500/10 hover:bg-sky-500/20 p-4 rounded-lg">
+          <div className="flex justify-center">
+            <FaDesktop className="text-5xl" />
+          </div>
+          <div>
+            <h2 className="text-2xl font-bold p-4">Desktop Application</h2>
+            <p className="text-xl">
+              Powerful and reliable desktop solutions designed for enterprises
+              and individuals.
+            </p>
+          </div>
+        </div>
+        {/* mobile application */}
+        <div className="text-center bg-sky-500/10 hover:bg-sky-500/20 p-4 rounded-lg">
+          <div className="flex justify-center">
+            <FaMobileScreenButton className="text-5xl" />
+          </div>
+          <div>
+            <h2 className="text-2xl font-bold p-4">Mobile Application</h2>
+            <p className="text-xl">
+              Android & iOS applications with modern UI/UX for seamless user
+              experiences.
+            </p>
+          </div>
+        </div>
+        {/*UI/UX Design */}
+        <div className="text-center bg-sky-500/10 hover:bg-sky-500/20 p-4 rounded-lg">
+          <div className="flex justify-center">
+            <MdDesignServices className="text-5xl" />
+          </div>
+          <div>
+            <h2 className="text-2xl font-bold p-4">UI/UX Design</h2>
+            <p className="text-xl">
+              Engaging and user-friendly design that makes your product stand
+              out.
+            </p>
+          </div>
+        </div>
+        {/*Cloud Solutions */}
+        <div className="text-center bg-sky-500/10 hover:bg-sky-500/20 p-4 rounded-lg">
+          <div className="flex justify-center">
+            <FaCloud className="text-5xl" />
+          </div>
+          <div>
+            <h2 className="text-2xl font-bold p-4">Cloud Solutions</h2>
+            <p className="text-xl">
+              Scalable cloud-based systems with seamless integration and
+              deployment.
+            </p>
+          </div>
+        </div>
+        {/*Maintenance & Support */}
+        <div className="text-center bg-sky-500/10 hover:bg-sky-500/20 p-4 rounded-lg">
+          <div className="flex justify-center">
+            <GrVmMaintenance className="text-5xl" />
+          </div>
+          <div>
+            <h2 className="text-2xl font-bold p-4">Maintenance & Support</h2>
+            <p className="text-xl">
+              Continuous improvement, bug fixing, and reliable technical support
+              for your software.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
