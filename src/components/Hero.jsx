@@ -17,15 +17,15 @@ export default function Hero() {
           faster and smarter.
         </p>
         <div className="flex gap-4 justify-center">
-          <button className=" bg-gradient-to-r from-orange-500 to-orange-800 text-white  p-2  md:p-4 rounded-sm ">
+          <button className=" bg-gradient-to-r from-orange-500 to-orange-800 text-white  p-2  md:p-4 rounded-sm text-sm md:text-6 lg:text-xl ">
             Get Started
           </button>
-          <button className="border-4 border-white p-2  md:p-4 rounded-sm ">
+          <button className="border-4 border-white p-2  md:p-4 rounded-sm text-sm md:text-6 lg:text-xl ">
             Contact Us
           </button>
         </div>
       </div>
-      <div className="flex justify-center gap-2 md:gap-4 p-4">
+      <div className="flex justify-center gap-2 p-2">
         <video
           autoPlay
           loop

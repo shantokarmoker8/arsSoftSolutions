@@ -10,7 +10,7 @@ import TypeOfSoftware from "./components/TypeOfSoftware";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Navbar></Navbar>
-    <div className=" lg:container mx-auto">
+    <div className="mx-2 md:mx-6 lg:container lg:mx-auto">
       <Hero></Hero>
       <Services></Services>
       <TypeOfSoftware></TypeOfSoftware>
