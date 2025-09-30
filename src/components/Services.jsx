@@ -6,15 +6,15 @@ import { FaCloud } from "react-icons/fa";
 import { GrVmMaintenance } from "react-icons/gr";
 export default function Services() {
   return (
-    <div>
-      <h2 className="text-center font-bold text-xl md:text-3xl lg:text-4xl">
+    <div className="h-screen border flex flex-col justify-evenly">
+      <h2 className="text-center font-bold text-xl md:text-3xl lg:text-4xl ">
         Our
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
           {" "}
           Services
         </span>
       </h2>
-      <p className="text-center text-sm md:text-6 lg:text-xl py-5 md:py-6 lg:py-7">
+      <p className="text-center text-sm md:text-6 lg:text-xl  ">
         At ARS Soft Solutions, we offer end-to-end software development services
         to help businesses grow in the digital era. From designing intuitive
         user experiences to developing secure and scalable applications, we
