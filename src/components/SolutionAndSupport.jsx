@@ -3,7 +3,7 @@ import TypeOfSoftware from "./TypeOfSoftware";
 
 export default function SolutionAndSupport() {
   return (
-    <div className="border min-h-screen  flex flex-col justify-evenly">
+    <div className=" min-h-screen  flex flex-col justify-evenly">
       <h2 className="text-center font-bold text-xl md:text-3xl lg:text-4xl ">
         Solutions We Provide &
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
