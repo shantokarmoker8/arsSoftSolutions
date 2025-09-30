@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
 import TypeOfSoftware from "./components/TypeOfSoftware";
+import SolutionAndSupport from "./components/SolutionAndSupport";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -14,6 +15,7 @@ createRoot(document.getElementById("root")).render(
       <Hero></Hero>
       <Services></Services>
       <TypeOfSoftware></TypeOfSoftware>
+      <SolutionAndSupport></SolutionAndSupport>
     </div>
     <Footer></Footer>
   </StrictMode>
