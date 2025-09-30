@@ -1,8 +1,11 @@
+import React from "react";
+import TypeOfSoftware from "./TypeOfSoftware";
+
 export default function SolutionAndSupport() {
   return (
-    <div className="min-h-screen  flex flex-col justify-evenly">
+    <div className="border min-h-screen  flex flex-col justify-evenly">
       <h2 className="text-center font-bold text-xl md:text-3xl lg:text-4xl ">
-        Solutions We Provide
+        Solutions We Provide &
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
           {" "}
           Your Questions Answered
@@ -15,7 +18,10 @@ export default function SolutionAndSupport() {
         support.
       </p>
 
-      <div>ss</div>
+      <div className=" lg:grid lg:grid-cols-2 gap-6">
+        <TypeOfSoftware></TypeOfSoftware>
+        <TypeOfSoftware></TypeOfSoftware>
+      </div>
     </div>
   );
 }
