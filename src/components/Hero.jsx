@@ -2,7 +2,7 @@ import video1 from "../assets/videos/Programming.mp4";
 import video2 from "../assets/videos/Presentation.mp4";
 export default function Hero() {
   return (
-    <div className="h-screen flex flex-col justify-evenly ">
+    <div className="h-screen flex flex-col justify-evenly mt-10 md:mt-16 lg:mt-24">
       <div>
         <h2 className="text-center font-bold text-xl md:text-3xl lg:text-4xl ">
           Empowering Businesses with <br />
