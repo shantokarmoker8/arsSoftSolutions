@@ -1,4 +1,4 @@
-import React from "react";
+import Faq from "./Faq";
 import TypeOfSoftware from "./TypeOfSoftware";
 
 export default function SolutionAndSupport() {
@@ -20,7 +20,7 @@ export default function SolutionAndSupport() {
 
       <div className=" lg:grid lg:grid-cols-2 gap-6">
         <TypeOfSoftware></TypeOfSoftware>
-        <TypeOfSoftware></TypeOfSoftware>
+        <Faq></Faq>
       </div>
     </div>
   );
