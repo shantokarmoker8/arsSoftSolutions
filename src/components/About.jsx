@@ -23,11 +23,11 @@ export default function About() {
 
       <div className="grid md:grid-cols-2 gap-6">
         {/* left side */}
-        <div className=" bg-sky-500/10 p-2 md:p-4 lg:p-6 md:rounded-xl lg:rounded-2xl flex flex-col justify-center items-center">
+        <div className=" bg-sky-500/10 p-2 md:p-4 lg:p-6 rounded-sm md:rounded-xl lg:rounded-2xl flex flex-col justify-center items-center">
           <img src={photo} alt="" className="w-full" />
         </div>
         {/* right side */}
-        <div className=" bg-sky-500/10 p-2 md:p-4 lg:p-6 md:rounded-xl lg:rounded-2xl">
+        <div className=" bg-sky-500/10 p-2 md:p-4 lg:p-6 rounded-sm md:rounded-xl lg:rounded-2xl">
           <div>
             <h1 className="text-[12px] lg:text-2xl font-bold">Description:</h1>
             <p className="text-[10px] md:text-[15px] lg:text-xl p-4 ">
