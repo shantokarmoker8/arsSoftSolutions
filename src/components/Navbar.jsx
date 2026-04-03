@@ -37,6 +37,9 @@ export default function Navbar() {
             <li>
               <a href="#contact">Contact</a>
             </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
         <a href="https://ars-soft-solutions.vercel.app/">
