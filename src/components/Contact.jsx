@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="lg:h-screen flex flex-col justify-between ">
+    <div id="contact" className="lg:h-screen flex flex-col justify-between ">
       <h2 className="text-center font-bold text-xl md:text-3xl lg:text-4xl ">
         Get in
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">

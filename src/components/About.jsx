@@ -3,7 +3,7 @@ import { TiTickOutline } from "react-icons/ti";
 
 export default function About() {
   return (
-    <div className=" ">
+    <div id="about">
       <div>
         <h2 className="text-center font-bold text-xl md:text-3xl lg:text-4xl ">
           About

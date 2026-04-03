@@ -41,15 +41,18 @@ export default function Navbar() {
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 font-bold">
           <li>
-            <a>Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a>About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a>Services</a>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
