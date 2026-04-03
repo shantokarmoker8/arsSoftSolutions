@@ -1,16 +1,26 @@
-# React + Vite
+# ARS Soft Tech Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **React** website for a software company built using **Tailwind CSS** and **Framer Motion** for animations.  
+It includes Navbar, Header, Services, Software Types, FAQ, About, Contact, and Footer sections. Fully responsive for **Mobile, Tablet, and Desktop**.
 
-Currently, two official plugins are available:
+**Live Site:** [https://ars-soft-solutions.vercel.app/](https://ars-soft-solutions.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🔹 Features
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Responsive Navbar** with logo and mobile/tablet hamburger menu
+- **Header Section**: full-screen gradient, headline, subtext, call-to-action button
+- **Services Section**: animated service cards with icons and hover effects
+- Fully responsive on **Mobile, Tablet, and Desktop**
+- Easy to extend with additional sections
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔹 Tech Stack
+
+- **React.js** – Frontend framework
+- **Tailwind CSS** – Utility-first CSS
+- **Framer Motion** – Animations
+- **React Icons** – Icons for services and navbar
+
